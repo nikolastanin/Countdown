@@ -1,0 +1,12 @@
+body{
+    background-color: red;
+}
+
+#cards{
+    display: flex;
+    justify-content: space-evenly;
+}
+.box{
+    background-color: blue;
+    padding: 50px;
+}
