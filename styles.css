@@ -1,13 +1,48 @@
-body{
-    background-color: red;
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
 }
-
+body{
+ 
+    background-color:#252525;
+}
+#container{
+width: 80%;
+margin:auto;
+  
+}
 #cards{
-    display: flex;
-    /* justify-content: space-around; */
+  
+  display:flex;
+ 
+    
 }
 .box{
-    background-color: blue;
-    padding: 50px;
-   width : 100px;
+flex-grow: 1;
+background-color: #f4ce8d;
+  border-radius: 20px;
+   
+    padding:7% 0 7% 0; 
+   text-align: center;
+    margin:5px; 
+  
+}
+p{
+    color : #252525;
+    font-size: 30px;
+}
+h1{
+    text-align: center;
+    color : white;
+    margin:50px;
+}
+footer{
+    position: fixed;
+    bottom: 0;
+    bottom: 0;
+    width: 100%; 
+    color: #ffab91;
+    text-align: center;
+    z-index: -1;
 }

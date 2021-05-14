@@ -29,6 +29,6 @@ const displayingTimes = () =>{
         mS.innerHTML = m;
         sS.innerHTML = s;
 }
-
+//updates every second
 setInterval(timeCountdown,1000);
 
